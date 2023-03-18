@@ -126,7 +126,7 @@ var DatePicker = function DatePicker(_ref) {
       var _dbRef$current2, _lbRef$current2;
 
       setIsOpen(false);
-      onClose && onClose();
+      onClose && onClose(selectedDate);
       (_dbRef$current2 = dbRef.current) === null || _dbRef$current2 === void 0 ? void 0 : _dbRef$current2.classList.remove(styles.fadeOut);
       (_lbRef$current2 = lbRef.current) === null || _lbRef$current2 === void 0 ? void 0 : _lbRef$current2.classList.remove(styles.zoomOut);
     }, 300);
