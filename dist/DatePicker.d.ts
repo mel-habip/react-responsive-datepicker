@@ -13,7 +13,7 @@ interface Props {
     isOpen?: boolean;
     closeText?: string;
     clearText?: string;
-    onClose?: () => void;
+    onClose?: (date: Date | null) => void;
     onChange?: (date: Date | null) => void;
     showFooter?: boolean;
     showHeader?: boolean;
